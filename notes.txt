@@ -12,3 +12,5 @@
 
 * basic transition when hovering. scale and translateY
 
+*responsive 1. span itemes create problems
+    2. use auto properties(hieght, margins) to control overflow

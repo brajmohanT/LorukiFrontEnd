@@ -218,3 +218,62 @@ img {
     margin: 0 10px;
 }
 
+
+/* Responsiveness */
+
+/* Tablets and Under */
+@media (max-width: 768px) {
+   /* stack all grids */
+   .grid,
+   .showcase .grid,
+   .stats .grid,
+   .cli .grid,
+   .cloud .grid,
+   .footer .grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+   }
+
+   /* form is over flowing and covering showcase area */
+   .showcase{
+       height: auto;
+   }
+   .showcase-text{
+       text-align: center;
+       margin-top: 40px;
+   }
+
+   .showcase-form{
+       justify-self: center;
+       margin: auto;
+   }
+
+   /* porblems in cli: remove span effect of first child  */
+   .cli .grid > *:first-child{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+    /* .footer{
+        text-align: center;
+    } */
+
+}
+
+/* Mobile  */
+
+@media (max-width:500px) {
+    .navbar{
+        height: 110px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+
