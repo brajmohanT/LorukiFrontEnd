@@ -1,0 +1,14 @@
+*using utilities[making own collection of classes: like bootstrap]: the best practice
+
+*outer section -> conatiner -> core elements : this flow is better , see in the navbar 
+
+*cdn js is another greate thing. Struggling a time ago (navbar fireship io video) to add fa icons in site. Now its easy.
+
+*skewing And use of before and after to do so.
+
+* removing blue border in input area.
+
+* use of css box-sizing property
+
+* basic transition when hovering. scale and translateY
+
