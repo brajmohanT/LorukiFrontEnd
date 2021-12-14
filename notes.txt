@@ -16,3 +16,6 @@
     2. use auto properties(hieght, margins) to control overflow
     3. MEDIA QUERIES TO mobile and tablate.
     4. it is easy to make site responsive while using grid.
+
+*flex start could be used in grid or in non flex layouts.
+
